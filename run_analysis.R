@@ -5,7 +5,7 @@ library("dplyr")
 
 ## Column Names in file features_list.txt
 
-tableNames <- read.csv("~/Documents/CourseraGetDataProject/UCI HAR Dataset/features.txt", header=FALSE, sep="\n")
+tableNames <- read.table("~/Documents/CourseraGetDataProject/UCI HAR Dataset/features.txt", header=FALSE, sep="\n")
 
 ## idenitfy mean and std columns as only those are to be kept
 
